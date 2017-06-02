@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Know Your Government</string>
+    <string name="help">Help</string>
+    <string name="search">Search</string>
+    <string name="know_your_government">Know Your Government</string>
+    <string name="version_1_0">Version 1.0</string>
+    <string name="_2017_valentin_pichavant">© 2017, Valentin Pichavant</string>
+    <string name="address">Address:</string>
+    <string name="content_email">Content Email</string>
+    <string name="content_website">Content Website</string>
+    <string name="email">Email:</string>
+    <string name="phone">Phone:</string>
+    <string name="website">Website:</string>
+    <string name="official_image">official image</string>
+    <string name="facebook">facebook</string>
+    <string name="google">google</string>
+    <string name="twitter">twitter</string>
+    <string name="youtube">youtube</string>
+    <string name="data_cannot_be_accessed_loaded_without_an_internet_connection">Data cannot be accessed/loaded without an internet connection.</string>
+    <string name="no_network_connection">No Network Connection</string>
+</resources>

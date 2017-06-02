@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Converter</string>
+    <string name="conversion">Conversion:</string>
+    <string name="radiobuttonFtoC">Fahrenheit to Celsius</string>
+    <string name="name">=</string>
+    <string name="Fahrenheit"></string>
+    <string name="Celsius"></string>
+    <string name="convert">Convert</string>
+    <string name="results">Results:</string>
+    <string name="radiobuttonCtoF">Celsius to Fahrenheit</string>
+</resources>

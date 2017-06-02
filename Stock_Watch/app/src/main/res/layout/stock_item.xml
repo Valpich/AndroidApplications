@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewSymbol"
+        android:textSize="22sp"
+        android:textStyle="normal|bold"
+        android:textAlignment="viewStart"
+        tools:text="GOOG"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewLastTradePrice"
+        android:layout_marginStart="8dp"
+        app:layout_constraintLeft_toRightOf="@+id/textViewSymbol"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewSymbol"
+        android:textSize="19sp"
+        app:layout_constraintRight_toLeftOf="@+id/textViewVariation"
+        android:layout_marginEnd="8dp"
+        tools:text="828.07" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewVariation"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewLastTradePrice"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:textSize="19sp"
+        tools:text="▲ 3.91 (0.47%)" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewName"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSymbol"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:textStyle="normal|italic"
+        android:textSize="15sp"
+        tools:text="Alphabet Inc."
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="16dp" />
+</android.support.constraint.ConstraintLayout>

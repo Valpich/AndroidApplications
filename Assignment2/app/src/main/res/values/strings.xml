@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Quick notes</string>
+    <string name="file_name">Note.ser</string>
+    <string name="notes_saved">Notes Saved!</string>
+    <string name="no_notes">No Notes File Present</string>
+    <string name="textdate">textDate</string>
+    <string name="note"/>
+    <string name="date_format">MM--dd--yyyy hh:mm:ss</string>
+    <string name="last_edition">Last edit:&#160;</string>
+</resources>

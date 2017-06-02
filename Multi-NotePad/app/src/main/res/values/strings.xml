@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Multi-Note Pad</string>
+    <string name="hello_world">Hello World</string>
+    <string name="file_name">notes.json</string>
+    <string name="encoding">UTF-8</string>
+    <string name="date_format">MM--dd--yyyy hh:mm:ss</string>
+    <string name="no_notes">No Notes File Present</string>
+    <string name="notes_saved">Notes Saved!</string>
+    <string name="notes_loaded">Notes Loaded!</string>
+    <string name="this_application_was_done_by_n_2017_valentin_pichavant">This application was done by\nValentin Pichavant\n© 2017</string>
+    <string name="background">background</string>
+    <string name="version_1_0">Version 1.0</string>
+    <string name="no_title">Untitled activity was not saved.</string>
+    <string name="item">Item</string>
+    <string name="multi_notes">Multi-Notes</string>
+    <string name="old_note">HOLD-NOTE</string>
+    <string name="note">NOTE</string>
+    <string name="save_note_msg">Save note \'</string>
+    <string name="note_not_save">Your note is not saved yet!</string>
+    <string name="edit_note">Edit note!</string>
+    <string name="delete_note">Delete note!</string>
+    <string name="delete_note_confirm">Do you want to delete this note ?</string>
+    <string name="about_choice">You want to show the about activity</string>
+    <string name="add_choice">You have choose to add a Note</string>
+
+</resources>

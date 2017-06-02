@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="iit.valentinpichavant.multi_notepad.AboutActivity"
+    android:screenOrientation="portrait"
+    android:background="@drawable/background">
+
+    <TextView
+        android:text="@string/multi_notes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewAppName"
+        android:textSize="24sp"
+        app:layout_constraintLeft_toLeftOf="@+id/textViewAbout"
+        app:layout_constraintRight_toRightOf="@+id/textViewAbout"
+        android:textAlignment="center"
+        android:layout_marginTop="248dp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewAbout"
+        android:textAlignment="center"
+        android:text="@string/this_application_was_done_by_n_2017_valentin_pichavant"
+        android:textSize="18sp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/textViewAppName" />
+
+    <TextView
+        android:text="@string/version_1_0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewVersion"
+        app:layout_constraintLeft_toLeftOf="@+id/textViewAbout"
+        app:layout_constraintRight_toRightOf="@+id/textViewAbout"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/textViewAbout"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintVertical_bias="0.0" />
+</android.support.constraint.ConstraintLayout>

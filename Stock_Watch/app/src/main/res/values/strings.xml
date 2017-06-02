@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Stock Watch</string>
+    <string name="delete_confirm">Delete Stock</string>
+    <string name="item">Item</string>
+    <string name="enter_symbol">Enter Symbol:</string>
+    <string name="enter_a_symbol">Enter a Symbol</string>
+    <string name="stock_selection">Stock selection</string>
+    <string name="enter_stock_symbol">Please enter a Stock Symbol:</string>
+    <string name="duplicate_stock">"Duplicate Stock"</string>
+    <string name="no_connection_title">No network connection</string>
+    <string name="no_connection_msg">Stocks cannot be added without a network connection</string>
+    <string name="symbol_not_found_title">Symbol not found: </string>
+    <string name="symbol_not_found_msg">Please try another selection</string>
+    <string name="multiple_select_title">Make a selection</string>
+</resources>
